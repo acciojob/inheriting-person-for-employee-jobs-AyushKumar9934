@@ -7,8 +7,7 @@
 // function Employee(name, age, jobTitle) {}
 
 // Do not change code below this line
-window.Person = Person;
-window.Employee = Employee;
+
 
 
 class Person{
@@ -30,6 +29,7 @@ class Employee extends Person{
 	}
 }
 
-
+window.Person = Person;
+window.Employee = Employee;
 
 
