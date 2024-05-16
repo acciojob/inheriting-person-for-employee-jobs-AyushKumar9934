@@ -8,15 +8,13 @@
 
 // Do not change code below this line
 
-
-
 class Person{
 	constructor(name,age){
 		this.name=name;
 		this.age=age;
 	}
 	greet(){
-		Hello, my name is this.name, I am this.age years old.
+		console.log(`Hello, my name is ${this.name}, I am ${this.age} years old.`)
 	}
 }
 class Employee extends Person{
@@ -25,8 +23,8 @@ class Employee extends Person{
 		this.jobTitle=jobTitle;
 	}
 	jobGreet(){
-		Hello, my name is this.name, I am this.age years old, and my job title is this.jobTitle
-	}
+console.log(`Hello, my name is ${this.name}, I am ${this.age} years old, and my job title is ${this.jobTitle}.`)
+    }
 }
 
 window.Person = Person;
